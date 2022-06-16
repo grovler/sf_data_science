@@ -24,5 +24,5 @@ def score_game(random_predict) -> int:
 
     print(f'алгоритм угадывает число за: {score} попыток')
     return(score)
-
-score_game(random_predict)
+if __name__ == '_main_':
+    score_game(random_predict)
